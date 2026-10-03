@@ -67,11 +67,15 @@ Python 3.6+
    - Follow the instructions given **[here](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)**
 
 6. **Run the Assistant**
-  - Run the main script:
+  - Launch the desktop GUI:
     ```bash
-    python jarvis.py
+    python Jarvis/jarvis.py
     ```
-  - Now Enjoy with your own assistant !!!!
+  - To use the original voice-only command-line interface:
+    ```bash
+    python Jarvis/jarvis.py --cli
+    ```
+  - Voice input requires a working microphone and PyAudio. Typed commands and quick actions are available in the GUI without a microphone.
 
 7. **Deactivate the Virtual Environment**
    - After you're done, deactivate the virtual environment:
